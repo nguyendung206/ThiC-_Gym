@@ -1,0 +1,17 @@
+D:\Gyn\bin\Debug\net7.0-windows\Gyn.exe
+D:\Gyn\bin\Debug\net7.0-windows\Gyn.deps.json
+D:\Gyn\bin\Debug\net7.0-windows\Gyn.runtimeconfig.json
+D:\Gyn\bin\Debug\net7.0-windows\Gyn.dll
+D:\Gyn\bin\Debug\net7.0-windows\Gyn.pdb
+D:\Gyn\obj\Debug\net7.0-windows\Gyn.Form1.resources
+D:\Gyn\obj\Debug\net7.0-windows\Gyn.Properties.Resources.resources
+D:\Gyn\obj\Debug\net7.0-windows\Gyn.csproj.GenerateResource.cache
+D:\Gyn\obj\Debug\net7.0-windows\Gyn.GeneratedMSBuildEditorConfig.editorconfig
+D:\Gyn\obj\Debug\net7.0-windows\Gyn.AssemblyInfoInputs.cache
+D:\Gyn\obj\Debug\net7.0-windows\Gyn.AssemblyInfo.cs
+D:\Gyn\obj\Debug\net7.0-windows\Gyn.csproj.CoreCompileInputs.cache
+D:\Gyn\obj\Debug\net7.0-windows\Gyn.dll
+D:\Gyn\obj\Debug\net7.0-windows\refint\Gyn.dll
+D:\Gyn\obj\Debug\net7.0-windows\Gyn.pdb
+D:\Gyn\obj\Debug\net7.0-windows\Gyn.genruntimeconfig.cache
+D:\Gyn\obj\Debug\net7.0-windows\ref\Gyn.dll
