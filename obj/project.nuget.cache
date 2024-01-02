@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "45rTupEKktuJjxajJFj6jvRCKlvUJSHOoxTW2JHEDVWqza5P1UPUQB2yiseuTFxS+ltftUvQLu0NgMIoH18HSw==",
+  "dgSpecHash": "IGEUZvBgYgb5lSGuQYFKZzA83xtaLO4LIzYPT3oq6Q6mDy8ukZM1kdPIciT4EwigXbx0hIl04MbhA1sONB6IWQ==",
   "success": true,
-  "projectFilePath": "D:\\Thi.NET_GYM\\Gym.csproj",
+  "projectFilePath": "D:\\ThiC-_Gym\\Gym.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\FPT\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\FPT\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

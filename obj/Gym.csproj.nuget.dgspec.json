@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Thi.NET_GYM\\Gym.csproj": {}
+    "D:\\ThiC-_Gym\\Gym.csproj": {}
   },
   "projects": {
-    "D:\\Thi.NET_GYM\\Gym.csproj": {
+    "D:\\ThiC-_Gym\\Gym.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Thi.NET_GYM\\Gym.csproj",
+        "projectUniqueName": "D:\\ThiC-_Gym\\Gym.csproj",
         "projectName": "Gym",
-        "projectPath": "D:\\Thi.NET_GYM\\Gym.csproj",
+        "projectPath": "D:\\ThiC-_Gym\\Gym.csproj",
         "packagesPath": "C:\\Users\\FPT\\.nuget\\packages\\",
-        "outputPath": "D:\\Thi.NET_GYM\\obj\\",
+        "outputPath": "D:\\ThiC-_Gym\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\FPT\\AppData\\Roaming\\NuGet\\NuGet.Config",

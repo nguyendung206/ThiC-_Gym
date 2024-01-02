@@ -32,5 +32,15 @@ namespace Gyn
             Equipment eq = new Equipment();
             eq.Show();
         }
+
+        private void Logout_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Bạn có muốn đăng xuất không", "Đăng xuất", MessageBoxButtons.OKCancel) == DialogResult.OK)
+            {
+                this.Close();
+                Login lg = new Login();
+                lg.Show();
+            }
+        }
     }
 }

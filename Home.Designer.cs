@@ -33,72 +33,58 @@
             addMember = new ToolStripMenuItem();
             addManager = new ToolStripMenuItem();
             Equipment = new ToolStripMenuItem();
-            tìmKiếmHộiViênToolStripMenuItem = new ToolStripMenuItem();
-            đăngXuấtToolStripMenuItem = new ToolStripMenuItem();
-            thoátToolStripMenuItem = new ToolStripMenuItem();
+            Logout = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // menuStrip1
             // 
             menuStrip1.ImageScalingSize = new Size(20, 20);
-            menuStrip1.Items.AddRange(new ToolStripItem[] { addMember, addManager, Equipment, tìmKiếmHộiViênToolStripMenuItem, đăngXuấtToolStripMenuItem, thoátToolStripMenuItem });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { addMember, addManager, Equipment, Logout });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(1051, 36);
+            menuStrip1.Size = new Size(1051, 39);
             menuStrip1.TabIndex = 0;
             menuStrip1.Text = "menuStrip1";
             // 
             // addMember
             // 
             addMember.BackColor = Color.Silver;
-            addMember.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            addMember.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
             addMember.Name = "addMember";
-            addMember.Size = new Size(164, 32);
-            addMember.Text = "Thêm Hội viên";
+            addMember.Size = new Size(206, 35);
+            addMember.Text = "Quản lý Hội viên";
             addMember.Click += addMember_Click;
             // 
             // addManager
             // 
             addManager.BackColor = Color.FromArgb(224, 224, 224);
-            addManager.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            addManager.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
             addManager.Name = "addManager";
-            addManager.Size = new Size(158, 32);
-            addManager.Text = "Thêm Quản lý";
+            addManager.Size = new Size(143, 35);
+            addManager.Text = "Quản lý PT";
             addManager.Click += addManager_Click_1;
             // 
             // Equipment
             // 
             Equipment.BackColor = Color.Silver;
-            Equipment.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            Equipment.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
             Equipment.Name = "Equipment";
-            Equipment.Size = new Size(136, 32);
+            Equipment.Size = new Size(151, 35);
             Equipment.Text = "Thiết bị tập";
             Equipment.Click += Equipment_Click;
             // 
-            // tìmKiếmHộiViênToolStripMenuItem
+            // Logout
             // 
-            tìmKiếmHộiViênToolStripMenuItem.BackColor = Color.FromArgb(224, 224, 224);
-            tìmKiếmHộiViênToolStripMenuItem.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            tìmKiếmHộiViênToolStripMenuItem.Name = "tìmKiếmHộiViênToolStripMenuItem";
-            tìmKiếmHộiViênToolStripMenuItem.Size = new Size(184, 32);
-            tìmKiếmHộiViênToolStripMenuItem.Text = "Quản lý Hội viên";
-            // 
-            // đăngXuấtToolStripMenuItem
-            // 
-            đăngXuấtToolStripMenuItem.BackColor = Color.FromArgb(224, 224, 224);
-            đăngXuấtToolStripMenuItem.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            đăngXuấtToolStripMenuItem.Name = "đăngXuấtToolStripMenuItem";
-            đăngXuấtToolStripMenuItem.Size = new Size(124, 32);
-            đăngXuấtToolStripMenuItem.Text = "Đăng xuất";
-            // 
-            // thoátToolStripMenuItem
-            // 
-            thoátToolStripMenuItem.BackColor = Color.Silver;
-            thoátToolStripMenuItem.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            thoátToolStripMenuItem.Name = "thoátToolStripMenuItem";
-            thoátToolStripMenuItem.Size = new Size(81, 32);
-            thoátToolStripMenuItem.Text = "Thoát";
+            Logout.BackColor = Color.Red;
+            Logout.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
+            Logout.ForeColor = Color.White;
+            Logout.Name = "Logout";
+            Logout.RightToLeft = RightToLeft.No;
+            Logout.Size = new Size(139, 35);
+            Logout.Text = "Đăng xuất";
+            Logout.TextDirection = ToolStripTextDirection.Horizontal;
+            Logout.Click += Logout_Click;
             // 
             // Home
             // 
@@ -125,8 +111,6 @@
         private ToolStripMenuItem addMember;
         private ToolStripMenuItem addManager;
         private ToolStripMenuItem Equipment;
-        private ToolStripMenuItem tìmKiếmHộiViênToolStripMenuItem;
-        private ToolStripMenuItem đăngXuấtToolStripMenuItem;
-        private ToolStripMenuItem thoátToolStripMenuItem;
+        private ToolStripMenuItem Logout;
     }
 }
