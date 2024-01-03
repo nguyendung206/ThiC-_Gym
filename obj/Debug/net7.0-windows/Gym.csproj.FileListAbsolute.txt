@@ -56,8 +56,6 @@ D:\ThiC-_Gym\bin\Debug\net7.0-windows\runtimes\win-x86\native\sni.dll
 D:\ThiC-_Gym\bin\Debug\net7.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 D:\ThiC-_Gym\bin\Debug\net7.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 D:\ThiC-_Gym\obj\Debug\net7.0-windows\Gym.csproj.AssemblyReference.cache
-D:\ThiC-_Gym\obj\Debug\net7.0-windows\Gym.Addmanager.resources
-D:\ThiC-_Gym\obj\Debug\net7.0-windows\Gym.Addmember.resources
 D:\ThiC-_Gym\obj\Debug\net7.0-windows\Gym.Equipment.resources
 D:\ThiC-_Gym\obj\Debug\net7.0-windows\Gyn.Home.resources
 D:\ThiC-_Gym\obj\Debug\net7.0-windows\Gym.Properties.Resources.resources
@@ -74,3 +72,6 @@ D:\ThiC-_Gym\obj\Debug\net7.0-windows\Gym.genruntimeconfig.cache
 D:\ThiC-_Gym\obj\Debug\net7.0-windows\ref\Gym.dll
 D:\ThiC-_Gym\obj\Debug\net7.0-windows\Gym.Login.resources
 D:\ThiC-_Gym\obj\Debug\net7.0-windows\Gym.Register.resources
+D:\ThiC-_Gym\obj\Debug\net7.0-windows\Gym.Manager.resources
+D:\ThiC-_Gym\obj\Debug\net7.0-windows\Gym.Member.resources
+D:\ThiC-_Gym\obj\Debug\net7.0-windows\Gym.RegisterPT.resources

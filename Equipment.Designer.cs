@@ -68,23 +68,27 @@
             // btnReset
             // 
             btnReset.Anchor = AnchorStyles.Bottom;
-            btnReset.Location = new Point(782, 695);
+            btnReset.BackColor = Color.FromArgb(255, 255, 192);
+            btnReset.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
+            btnReset.Location = new Point(733, 693);
             btnReset.Name = "btnReset";
             btnReset.Size = new Size(120, 41);
             btnReset.TabIndex = 47;
             btnReset.Text = "Reset";
-            btnReset.UseVisualStyleBackColor = true;
+            btnReset.UseVisualStyleBackColor = false;
             btnReset.Click += btnReset_Click;
             // 
             // btnThem
             // 
             btnThem.Anchor = AnchorStyles.Bottom;
-            btnThem.Location = new Point(198, 695);
+            btnThem.BackColor = Color.FromArgb(192, 255, 192);
+            btnThem.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
+            btnThem.Location = new Point(149, 693);
             btnThem.Name = "btnThem";
             btnThem.Size = new Size(120, 41);
             btnThem.TabIndex = 46;
             btnThem.Text = "Thêm";
-            btnThem.UseVisualStyleBackColor = true;
+            btnThem.UseVisualStyleBackColor = false;
             btnThem.Click += btnThem_Click;
             // 
             // label9
@@ -158,7 +162,7 @@
             txtMota.Location = new Point(669, 139);
             txtMota.Name = "txtMota";
             txtMota.Size = new Size(287, 177);
-            txtMota.TabIndex = 35;
+            txtMota.TabIndex = 4;
             txtMota.Text = "";
             // 
             // dtpNgaynhap
@@ -167,7 +171,7 @@
             dtpNgaynhap.Location = new Point(240, 290);
             dtpNgaynhap.Name = "dtpNgaynhap";
             dtpNgaynhap.Size = new Size(287, 27);
-            dtpNgaynhap.TabIndex = 31;
+            dtpNgaynhap.TabIndex = 3;
             // 
             // txtTentb
             // 
@@ -175,7 +179,7 @@
             txtTentb.Location = new Point(240, 139);
             txtTentb.Name = "txtTentb";
             txtTentb.Size = new Size(287, 27);
-            txtTentb.TabIndex = 27;
+            txtTentb.TabIndex = 0;
             // 
             // txtGia
             // 
@@ -183,7 +187,7 @@
             txtGia.Location = new Point(240, 241);
             txtGia.Name = "txtGia";
             txtGia.Size = new Size(287, 27);
-            txtGia.TabIndex = 26;
+            txtGia.TabIndex = 2;
             // 
             // txtNhomco
             // 
@@ -191,17 +195,19 @@
             txtNhomco.Location = new Point(240, 189);
             txtNhomco.Name = "txtNhomco";
             txtNhomco.Size = new Size(287, 27);
-            txtNhomco.TabIndex = 25;
+            txtNhomco.TabIndex = 1;
             // 
             // btnXoa
             // 
             btnXoa.Anchor = AnchorStyles.Bottom;
-            btnXoa.Location = new Point(589, 695);
+            btnXoa.BackColor = Color.FromArgb(255, 192, 192);
+            btnXoa.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
+            btnXoa.Location = new Point(540, 693);
             btnXoa.Name = "btnXoa";
             btnXoa.Size = new Size(120, 41);
             btnXoa.TabIndex = 48;
             btnXoa.Text = "Xóa";
-            btnXoa.UseVisualStyleBackColor = true;
+            btnXoa.UseVisualStyleBackColor = false;
             btnXoa.Click += btnXoa_Click;
             // 
             // dtvDanhsach
@@ -240,6 +246,7 @@
             // 
             // btnTimkiem
             // 
+            btnTimkiem.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             btnTimkiem.Location = new Point(631, 347);
             btnTimkiem.Name = "btnTimkiem";
             btnTimkiem.Size = new Size(94, 29);
@@ -250,6 +257,7 @@
             // 
             // btnAll
             // 
+            btnAll.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             btnAll.Location = new Point(753, 347);
             btnAll.Name = "btnAll";
             btnAll.Size = new Size(118, 29);
@@ -261,12 +269,14 @@
             // btnSua
             // 
             btnSua.Anchor = AnchorStyles.Bottom;
-            btnSua.Location = new Point(392, 695);
+            btnSua.BackColor = Color.FromArgb(192, 255, 255);
+            btnSua.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
+            btnSua.Location = new Point(343, 693);
             btnSua.Name = "btnSua";
             btnSua.Size = new Size(120, 41);
             btnSua.TabIndex = 54;
             btnSua.Text = "Cập nhật";
-            btnSua.UseVisualStyleBackColor = true;
+            btnSua.UseVisualStyleBackColor = false;
             btnSua.Click += btnSua_Click;
             // 
             // Equipment

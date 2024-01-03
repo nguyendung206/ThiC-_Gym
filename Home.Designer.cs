@@ -34,13 +34,14 @@
             addManager = new ToolStripMenuItem();
             Equipment = new ToolStripMenuItem();
             Logout = new ToolStripMenuItem();
+            RegisterPT = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // menuStrip1
             // 
             menuStrip1.ImageScalingSize = new Size(20, 20);
-            menuStrip1.Items.AddRange(new ToolStripItem[] { addMember, addManager, Equipment, Logout });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { addMember, addManager, Equipment, RegisterPT, Logout });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Size = new Size(1051, 39);
@@ -86,6 +87,15 @@
             Logout.TextDirection = ToolStripTextDirection.Horizontal;
             Logout.Click += Logout_Click;
             // 
+            // RegisterPT
+            // 
+            RegisterPT.BackColor = Color.FromArgb(224, 224, 224);
+            RegisterPT.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
+            RegisterPT.Name = "RegisterPT";
+            RegisterPT.Size = new Size(149, 35);
+            RegisterPT.Text = "Đăng ký PT";
+            RegisterPT.Click += RegisterPT_Click;
+            // 
             // Home
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -112,5 +122,6 @@
         private ToolStripMenuItem addManager;
         private ToolStripMenuItem Equipment;
         private ToolStripMenuItem Logout;
+        private ToolStripMenuItem RegisterPT;
     }
 }

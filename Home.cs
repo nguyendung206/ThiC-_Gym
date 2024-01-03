@@ -16,15 +16,15 @@ namespace Gyn
 
         private void addMember_Click(object sender, EventArgs e)
         {
-            Addmember am = new Addmember();
-            am.Show();
+            Member mb = new Member();
+            mb.Show();
         }
 
 
         private void addManager_Click_1(object sender, EventArgs e)
         {
-            Addmanager am = new Addmanager();
-            am.Show();
+            Manager mn = new Manager();
+            mn.Show();
         }
 
         private void Equipment_Click(object sender, EventArgs e)
@@ -41,6 +41,12 @@ namespace Gyn
                 Login lg = new Login();
                 lg.Show();
             }
+        }
+
+        private void RegisterPT_Click(object sender, EventArgs e)
+        {
+            RegisterPT rp = new RegisterPT();
+            rp.Show();
         }
     }
 }
