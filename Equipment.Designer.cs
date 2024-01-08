@@ -44,13 +44,17 @@
             txtNhomco = new TextBox();
             btnXoa = new Button();
             dtvDanhsach = new DataGridView();
-            label3 = new Label();
             txtTimkiem = new TextBox();
             btnTimkiem = new Button();
             btnAll = new Button();
             btnSua = new Button();
+            groupBox1 = new GroupBox();
+            groupBox2 = new GroupBox();
+            label3 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dtvDanhsach).BeginInit();
+            groupBox1.SuspendLayout();
+            groupBox2.SuspendLayout();
             SuspendLayout();
             // 
             // pictureBox1
@@ -70,10 +74,10 @@
             btnReset.Anchor = AnchorStyles.Bottom;
             btnReset.BackColor = Color.FromArgb(255, 255, 192);
             btnReset.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            btnReset.Location = new Point(733, 693);
+            btnReset.Location = new Point(731, 702);
             btnReset.Name = "btnReset";
             btnReset.Size = new Size(120, 41);
-            btnReset.TabIndex = 47;
+            btnReset.TabIndex = 5;
             btnReset.Text = "Reset";
             btnReset.UseVisualStyleBackColor = false;
             btnReset.Click += btnReset_Click;
@@ -83,10 +87,10 @@
             btnThem.Anchor = AnchorStyles.Bottom;
             btnThem.BackColor = Color.FromArgb(192, 255, 192);
             btnThem.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            btnThem.Location = new Point(149, 693);
+            btnThem.Location = new Point(147, 702);
             btnThem.Name = "btnThem";
             btnThem.Size = new Size(120, 41);
-            btnThem.TabIndex = 46;
+            btnThem.TabIndex = 2;
             btnThem.Text = "Thêm";
             btnThem.UseVisualStyleBackColor = false;
             btnThem.Click += btnThem_Click;
@@ -98,7 +102,7 @@
             label9.BackColor = Color.Transparent;
             label9.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             label9.ForeColor = Color.White;
-            label9.Location = new Point(54, 185);
+            label9.Location = new Point(10, 83);
             label9.Name = "label9";
             label9.Size = new Size(145, 28);
             label9.TabIndex = 44;
@@ -111,7 +115,7 @@
             label5.BackColor = Color.Transparent;
             label5.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             label5.ForeColor = Color.White;
-            label5.Location = new Point(54, 237);
+            label5.Location = new Point(10, 131);
             label5.Name = "label5";
             label5.Size = new Size(48, 28);
             label5.TabIndex = 40;
@@ -124,7 +128,7 @@
             label4.BackColor = Color.Transparent;
             label4.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             label4.ForeColor = Color.White;
-            label4.Location = new Point(54, 288);
+            label4.Location = new Point(10, 182);
             label4.Name = "label4";
             label4.Size = new Size(173, 28);
             label4.TabIndex = 39;
@@ -150,7 +154,7 @@
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             label1.ForeColor = Color.White;
-            label1.Location = new Point(54, 139);
+            label1.Location = new Point(10, 33);
             label1.Name = "label1";
             label1.Size = new Size(125, 28);
             label1.TabIndex = 36;
@@ -159,16 +163,17 @@
             // txtMota
             // 
             txtMota.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
-            txtMota.Location = new Point(669, 139);
+            txtMota.Location = new Point(595, 33);
             txtMota.Name = "txtMota";
-            txtMota.Size = new Size(287, 177);
+            txtMota.Size = new Size(295, 185);
             txtMota.TabIndex = 4;
             txtMota.Text = "";
             // 
             // dtpNgaynhap
             // 
             dtpNgaynhap.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            dtpNgaynhap.Location = new Point(240, 290);
+            dtpNgaynhap.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dtpNgaynhap.Location = new Point(196, 184);
             dtpNgaynhap.Name = "dtpNgaynhap";
             dtpNgaynhap.Size = new Size(287, 27);
             dtpNgaynhap.TabIndex = 3;
@@ -176,7 +181,8 @@
             // txtTentb
             // 
             txtTentb.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            txtTentb.Location = new Point(240, 139);
+            txtTentb.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            txtTentb.Location = new Point(196, 33);
             txtTentb.Name = "txtTentb";
             txtTentb.Size = new Size(287, 27);
             txtTentb.TabIndex = 0;
@@ -184,7 +190,8 @@
             // txtGia
             // 
             txtGia.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            txtGia.Location = new Point(240, 241);
+            txtGia.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            txtGia.Location = new Point(196, 135);
             txtGia.Name = "txtGia";
             txtGia.Size = new Size(287, 27);
             txtGia.TabIndex = 2;
@@ -192,7 +199,8 @@
             // txtNhomco
             // 
             txtNhomco.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            txtNhomco.Location = new Point(240, 189);
+            txtNhomco.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            txtNhomco.Location = new Point(196, 83);
             txtNhomco.Name = "txtNhomco";
             txtNhomco.Size = new Size(287, 27);
             txtNhomco.TabIndex = 1;
@@ -200,12 +208,12 @@
             // btnXoa
             // 
             btnXoa.Anchor = AnchorStyles.Bottom;
-            btnXoa.BackColor = Color.FromArgb(255, 192, 192);
+            btnXoa.BackColor = Color.FromArgb(255, 128, 128);
             btnXoa.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            btnXoa.Location = new Point(540, 693);
+            btnXoa.Location = new Point(538, 702);
             btnXoa.Name = "btnXoa";
             btnXoa.Size = new Size(120, 41);
-            btnXoa.TabIndex = 48;
+            btnXoa.TabIndex = 4;
             btnXoa.Text = "Xóa";
             btnXoa.UseVisualStyleBackColor = false;
             btnXoa.Click += btnXoa_Click;
@@ -215,42 +223,32 @@
             dtvDanhsach.AllowUserToAddRows = false;
             dtvDanhsach.AllowUserToDeleteRows = false;
             dtvDanhsach.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dtvDanhsach.Location = new Point(54, 395);
+            dtvDanhsach.Location = new Point(64, 409);
             dtvDanhsach.Name = "dtvDanhsach";
             dtvDanhsach.ReadOnly = true;
             dtvDanhsach.RowHeadersWidth = 51;
             dtvDanhsach.RowTemplate.Height = 29;
             dtvDanhsach.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dtvDanhsach.Size = new Size(902, 278);
+            dtvDanhsach.Size = new Size(880, 264);
             dtvDanhsach.TabIndex = 49;
-            // 
-            // label3
-            // 
-            label3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label3.AutoSize = true;
-            label3.BackColor = Color.Transparent;
-            label3.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label3.ForeColor = Color.White;
-            label3.Location = new Point(54, 348);
-            label3.Name = "label3";
-            label3.Size = new Size(190, 28);
-            label3.TabIndex = 50;
-            label3.Text = "Danh sách thiết bị:";
             // 
             // txtTimkiem
             // 
-            txtTimkiem.Location = new Point(325, 349);
+            txtTimkiem.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            txtTimkiem.ForeColor = Color.Black;
+            txtTimkiem.Location = new Point(367, 23);
             txtTimkiem.Name = "txtTimkiem";
-            txtTimkiem.Size = new Size(280, 27);
-            txtTimkiem.TabIndex = 51;
+            txtTimkiem.Size = new Size(187, 27);
+            txtTimkiem.TabIndex = 0;
             // 
             // btnTimkiem
             // 
             btnTimkiem.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            btnTimkiem.Location = new Point(631, 347);
+            btnTimkiem.ForeColor = Color.Black;
+            btnTimkiem.Location = new Point(582, 21);
             btnTimkiem.Name = "btnTimkiem";
-            btnTimkiem.Size = new Size(94, 29);
-            btnTimkiem.TabIndex = 52;
+            btnTimkiem.Size = new Size(94, 31);
+            btnTimkiem.TabIndex = 1;
             btnTimkiem.Text = "Tìm kiếm";
             btnTimkiem.UseVisualStyleBackColor = true;
             btnTimkiem.Click += btnTimkiem_Click;
@@ -258,10 +256,11 @@
             // btnAll
             // 
             btnAll.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            btnAll.Location = new Point(753, 347);
+            btnAll.ForeColor = Color.Black;
+            btnAll.Location = new Point(695, 21);
             btnAll.Name = "btnAll";
-            btnAll.Size = new Size(118, 29);
-            btnAll.TabIndex = 53;
+            btnAll.Size = new Size(118, 31);
+            btnAll.TabIndex = 2;
             btnAll.Text = "Hiển thị tất cả";
             btnAll.UseVisualStyleBackColor = true;
             btnAll.Click += btnAll_Click;
@@ -271,13 +270,60 @@
             btnSua.Anchor = AnchorStyles.Bottom;
             btnSua.BackColor = Color.FromArgb(192, 255, 255);
             btnSua.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            btnSua.Location = new Point(343, 693);
+            btnSua.Location = new Point(341, 702);
             btnSua.Name = "btnSua";
             btnSua.Size = new Size(120, 41);
-            btnSua.TabIndex = 54;
+            btnSua.TabIndex = 3;
             btnSua.Text = "Cập nhật";
             btnSua.UseVisualStyleBackColor = false;
             btnSua.Click += btnSua_Click;
+            // 
+            // groupBox1
+            // 
+            groupBox1.BackColor = Color.Transparent;
+            groupBox1.Controls.Add(label1);
+            groupBox1.Controls.Add(txtNhomco);
+            groupBox1.Controls.Add(txtGia);
+            groupBox1.Controls.Add(txtTentb);
+            groupBox1.Controls.Add(dtpNgaynhap);
+            groupBox1.Controls.Add(label4);
+            groupBox1.Controls.Add(label5);
+            groupBox1.Controls.Add(label9);
+            groupBox1.Controls.Add(txtMota);
+            groupBox1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            groupBox1.ForeColor = Color.White;
+            groupBox1.Location = new Point(54, 110);
+            groupBox1.Name = "groupBox1";
+            groupBox1.Size = new Size(902, 231);
+            groupBox1.TabIndex = 1;
+            groupBox1.TabStop = false;
+            groupBox1.Text = "Thông tin thiết bị";
+            // 
+            // groupBox2
+            // 
+            groupBox2.BackColor = Color.Transparent;
+            groupBox2.Controls.Add(label3);
+            groupBox2.Controls.Add(txtTimkiem);
+            groupBox2.Controls.Add(btnAll);
+            groupBox2.Controls.Add(btnTimkiem);
+            groupBox2.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            groupBox2.ForeColor = Color.White;
+            groupBox2.Location = new Point(54, 347);
+            groupBox2.Name = "groupBox2";
+            groupBox2.Size = new Size(902, 340);
+            groupBox2.TabIndex = 6;
+            groupBox2.TabStop = false;
+            groupBox2.Text = "Danh sách thiết bị";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
+            label3.Location = new Point(208, 24);
+            label3.Name = "label3";
+            label3.Size = new Size(153, 23);
+            label3.TabIndex = 12;
+            label3.Text = "Nhập tên thiệt bị:";
             // 
             // Equipment
             // 
@@ -288,25 +334,14 @@
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1024, 764);
             Controls.Add(btnSua);
-            Controls.Add(btnAll);
-            Controls.Add(btnTimkiem);
-            Controls.Add(txtTimkiem);
-            Controls.Add(label3);
             Controls.Add(dtvDanhsach);
             Controls.Add(btnXoa);
             Controls.Add(btnReset);
             Controls.Add(btnThem);
-            Controls.Add(label9);
-            Controls.Add(label5);
-            Controls.Add(label4);
             Controls.Add(label2);
-            Controls.Add(label1);
-            Controls.Add(txtMota);
-            Controls.Add(dtpNgaynhap);
-            Controls.Add(txtTentb);
-            Controls.Add(txtGia);
-            Controls.Add(txtNhomco);
             Controls.Add(pictureBox1);
+            Controls.Add(groupBox1);
+            Controls.Add(groupBox2);
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "Equipment";
@@ -315,6 +350,10 @@
             Load += Equipment_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)dtvDanhsach).EndInit();
+            groupBox1.ResumeLayout(false);
+            groupBox1.PerformLayout();
+            groupBox2.ResumeLayout(false);
+            groupBox2.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -336,10 +375,12 @@
         private TextBox txtNhomco;
         private Button btnXoa;
         private DataGridView dtvDanhsach;
-        private Label label3;
         private TextBox txtTimkiem;
         private Button btnTimkiem;
         private Button btnAll;
         private Button btnSua;
+        private GroupBox groupBox1;
+        private GroupBox groupBox2;
+        private Label label3;
     }
 }

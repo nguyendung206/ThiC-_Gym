@@ -214,10 +214,5 @@ namespace Gym
                 con.Close();
             }
         }
-
-        private void btnAllpt_Click(object sender, EventArgs e)
-        {
-            LoadDataPT();
-        }
     }
 }
